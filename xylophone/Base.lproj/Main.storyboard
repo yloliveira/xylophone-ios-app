@@ -27,6 +27,9 @@
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="CPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMR-mH-ATh"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -44,6 +47,9 @@
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="DPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7zx-KH-9Va"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -61,6 +67,9 @@
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="EPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5X-72-k2h"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -78,6 +87,9 @@
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="FPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ehG-jd-qtp"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -95,6 +107,9 @@
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="GPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yV-Rc-mBA"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -112,6 +127,9 @@
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="APressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erz-5J-Ikf"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
@@ -129,6 +147,9 @@
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
                                                 <state key="normal" title="Button"/>
                                                 <buttonConfiguration key="configuration" style="plain"/>
+                                                <connections>
+                                                    <action selector="BPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atx-IE-cXt"/>
+                                                </connections>
                                             </button>
                                         </subviews>
                                         <constraints>
