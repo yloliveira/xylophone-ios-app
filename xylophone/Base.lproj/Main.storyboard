@@ -25,10 +25,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ts3-Z1-5YG">
                                                 <rect key="frame" x="5" y="0.0" width="404" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemRedColor"/>
+                                                <color key="tintColor" systemColor="systemRedColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="C"/>
                                                 <connections>
-                                                    <action selector="CPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="hMR-mH-ATh"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NMs-tc-d25"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -45,10 +46,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="uBK-fC-yIX">
                                                 <rect key="frame" x="10" y="0.0" width="394" height="108"/>
                                                 <color key="backgroundColor" systemColor="systemOrangeColor"/>
+                                                <color key="tintColor" systemColor="systemOrangeColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="D"/>
                                                 <connections>
-                                                    <action selector="DPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7zx-KH-9Va"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="0PU-KU-wsu"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -65,10 +67,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0E-DJ-KCZ">
                                                 <rect key="frame" x="15" y="0.0" width="384" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemYellowColor"/>
+                                                <color key="tintColor" systemColor="systemYellowColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="E"/>
                                                 <connections>
-                                                    <action selector="EPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="C5X-72-k2h"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FvS-hZ-kMd"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -85,10 +88,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ila-9s-hee">
                                                 <rect key="frame" x="20" y="0.0" width="374" height="108"/>
                                                 <color key="backgroundColor" systemColor="systemGreenColor"/>
+                                                <color key="tintColor" systemColor="systemGreenColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="F"/>
                                                 <connections>
-                                                    <action selector="FPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ehG-jd-qtp"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ejf-Qv-iCl"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -105,10 +109,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbW-Ce-5Hc">
                                                 <rect key="frame" x="25" y="0.0" width="364" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemIndigoColor"/>
+                                                <color key="tintColor" systemColor="systemIndigoColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="G"/>
                                                 <connections>
-                                                    <action selector="GPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7yV-Rc-mBA"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aVO-SB-DVn"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -125,10 +130,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KUO-F0-gmS">
                                                 <rect key="frame" x="30" y="0.0" width="354" height="108"/>
                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <color key="tintColor" systemColor="systemBlueColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="A"/>
                                                 <connections>
-                                                    <action selector="APressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="erz-5J-Ikf"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Uno-GJ-aO5"/>
                                                 </connections>
                                             </button>
                                         </subviews>
@@ -145,10 +151,11 @@
                                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cYe-eX-PCc">
                                                 <rect key="frame" x="35" y="0.0" width="344" height="108.5"/>
                                                 <color key="backgroundColor" systemColor="systemPurpleColor"/>
+                                                <color key="tintColor" systemColor="systemPurpleColor"/>
                                                 <state key="normal" title="Button"/>
-                                                <buttonConfiguration key="configuration" style="plain"/>
+                                                <buttonConfiguration key="configuration" style="plain" title="B"/>
                                                 <connections>
-                                                    <action selector="BPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="atx-IE-cXt"/>
+                                                    <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cnN-MR-zml"/>
                                                 </connections>
                                             </button>
                                         </subviews>
