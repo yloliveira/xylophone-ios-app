@@ -140,8 +140,8 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="KUO-F0-gmS" firstAttribute="top" secondItem="6up-zu-ihp" secondAttribute="top" id="SAW-uZ-PH5"/>
-                                            <constraint firstAttribute="trailing" secondItem="KUO-F0-gmS" secondAttribute="trailing" constant="30" id="d7y-Ld-jwb"/>
-                                            <constraint firstItem="KUO-F0-gmS" firstAttribute="leading" secondItem="6up-zu-ihp" secondAttribute="leading" constant="30" id="dQ7-5W-aUW"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="KUO-F0-gmS" secondAttribute="trailing" constant="30" id="d7y-Ld-jwb"/>
+                                            <constraint firstItem="KUO-F0-gmS" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6up-zu-ihp" secondAttribute="leading" constant="30" id="dQ7-5W-aUW"/>
                                             <constraint firstAttribute="bottom" secondItem="KUO-F0-gmS" secondAttribute="bottom" id="pWK-FI-FF1"/>
                                         </constraints>
                                     </view>
@@ -161,8 +161,8 @@
                                         </subviews>
                                         <constraints>
                                             <constraint firstItem="cYe-eX-PCc" firstAttribute="top" secondItem="eQg-Mq-j8m" secondAttribute="top" id="1Ag-qX-0KQ"/>
-                                            <constraint firstItem="cYe-eX-PCc" firstAttribute="leading" secondItem="eQg-Mq-j8m" secondAttribute="leading" constant="35" id="jJJ-KI-bqT"/>
-                                            <constraint firstAttribute="trailing" secondItem="cYe-eX-PCc" secondAttribute="trailing" constant="35" id="maN-R1-uny"/>
+                                            <constraint firstItem="cYe-eX-PCc" firstAttribute="leading" relation="lessThanOrEqual" secondItem="eQg-Mq-j8m" secondAttribute="leading" constant="35" id="jJJ-KI-bqT"/>
+                                            <constraint firstAttribute="trailing" relation="lessThanOrEqual" secondItem="cYe-eX-PCc" secondAttribute="trailing" constant="35" id="maN-R1-uny"/>
                                             <constraint firstAttribute="bottom" secondItem="cYe-eX-PCc" secondAttribute="bottom" id="pDz-uF-DrC"/>
                                         </constraints>
                                     </view>
