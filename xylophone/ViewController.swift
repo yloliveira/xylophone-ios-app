@@ -13,6 +13,11 @@ class ViewController: UIViewController {
     
     @IBAction func buttonPressed(_ sender: UIButton) {
         playSound(soundName: (sender.titleLabel?.text)!)
+        
+        sender.alpha = 0.5
+        DispatchQueue.main.asyncAfter(deadline: .now() + 0.2) {
+            sender.alpha = 1
+        }
     }
     
     func playSound(soundName: String) {
