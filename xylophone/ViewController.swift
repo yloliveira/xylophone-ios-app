@@ -12,11 +12,11 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer!
     
     @IBAction func buttonPressed(_ sender: UIButton) {
-        playSound(note: (sender.titleLabel?.text)!)
+        playSound(soundName: (sender.titleLabel?.text)!)
     }
     
-    func playSound(note: String) {
-        let url = Bundle.main.url(forResource: note, withExtension: "wav")
+    func playSound(soundName: String) {
+        let url = Bundle.main.url(forResource: soundName, withExtension: "wav")
         try! AVAudioSession.sharedInstance().setCategory(.playback)
         player = try! AVAudioPlayer(contentsOf: url!)
         player.play()
